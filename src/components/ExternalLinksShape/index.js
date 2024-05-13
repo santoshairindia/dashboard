@@ -1,0 +1,1 @@
+export { ExternalLinksShape } from "./ExternalLinksShape";

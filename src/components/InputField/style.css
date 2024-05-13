@@ -1,0 +1,457 @@
+.input-field {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+}
+
+.input-field .label-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  position: relative;
+}
+
+.input-field .label {
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 23.1px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input-field .div-4 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+}
+
+.input-field .content {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  margin-bottom: -1px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.input-field .enter-value {
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.input-field .content-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  margin-bottom: -12px;
+  margin-top: -12px;
+  position: relative;
+}
+
+.input-field .frame-2 {
+  align-items: center;
+  background-color: #6d6e7114;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  height: 48px;
+  justify-content: center;
+  padding: 0px 0px 0px 12px;
+  position: relative;
+}
+
+.input-field .img {
+  position: relative;
+  width: 18px;
+}
+
+.input-field .down-arrow {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.input-field .line {
+  height: 48px;
+  margin-right: -1px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+.input-field .content-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: -1px;
+  margin-right: -5px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.input-field .text-wrapper-2 {
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input-field .text-wrapper-3 {
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  margin-top: -1px;
+  position: relative;
+  width: 125px;
+}
+
+.input-field .content-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.input-field .lorem-ipsum-is {
+  align-self: stretch;
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  line-height: 26.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.input-field .word-coun-expand {
+  height: 23px;
+  position: relative;
+  width: 448px;
+}
+
+.input-field .word-limit {
+  color: var(--primary-solidsblack);
+  font-family: "Montserrat", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: -0.24px;
+  line-height: 19.8px;
+  opacity: 0.3;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+  width: 45px;
+}
+
+.input-field .action-icon {
+  height: 16px;
+  left: 432px;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+
+.input-field .error-message {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.input-field .helper-text {
+  color: var(--AI-primitives-global-colours-AI-red-r500-brand);
+  font-family: "Montserrat", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.24px;
+  line-height: 19.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input-field.area-text {
+  display: inline-flex;
+}
+
+.input-field.text-box {
+  display: flex;
+  width: 230px;
+}
+
+.input-field.dropdown {
+  display: flex;
+  width: 230px;
+}
+
+.input-field.phone-number {
+  display: flex;
+  width: 230px;
+}
+
+.input-field .hovered {
+  color: var(--AI-primitives-global-colours-AI-base-AI-black);
+  opacity: 0.8;
+}
+
+.input-field .disabled {
+  color: var(--primary-solidsblack);
+}
+
+.input-field .filled {
+  color: var(--AI-primitives-global-colours-AI-base-AI-black);
+  opacity: 0.8;
+}
+
+.input-field .focused-active {
+  color: var(--AI-primitives-global-colours-AI-base-AI-black);
+}
+
+.input-field .empty {
+  color: var(--AI-primitives-global-colours-AI-base-AI-black);
+  opacity: 0.8;
+}
+
+.input-field .error {
+  color: var(--AI-primitives-global-colours-AI-base-AI-black);
+  opacity: 0.8;
+}
+
+.input-field .focused-active.input-type-0-area-text {
+  opacity: 0.8;
+}
+
+.input-field .state-hovered {
+  background-color: #ffffff;
+  border-color: var(--AI-primitives-global-colours-AI-grey-g400);
+}
+
+.input-field .state-disabled {
+  background-color: var(--AI-primitives-global-colours-AI-grey-g200);
+  border-color: var(--AI-primitives-global-colours-AI-grey-g200);
+}
+
+.input-field .input-type-1-phone-number {
+  align-items: center;
+  align-self: stretch;
+  gap: 8px;
+  height: 48px;
+  padding: 12px 8px 12px 1px;
+  width: 100%;
+}
+
+.input-field .input-type-1-dropdown {
+  align-items: center;
+  align-self: stretch;
+  height: 48px;
+  justify-content: space-between;
+  padding: 12px 8px 12px 12px;
+  width: 100%;
+}
+
+.input-field .state-filled {
+  background-color: #ffffff;
+  border-color: var(--AI-primitives-global-colours-AI-grey-g500);
+}
+
+.input-field .input-type-1-area-text {
+  align-items: flex-start;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 0px 0px 12px;
+  width: 460px;
+}
+
+.input-field .state-focused-active {
+  background-color: #ffffff;
+  border-color: var(--AI-primitives-global-colours-AI-blue-b500);
+}
+
+.input-field .state-empty {
+  background-color: #ffffff;
+  border-color: var(--AI-primitives-global-colours-AI-grey-g300);
+}
+
+.input-field .input-type-1-text-box {
+  align-items: center;
+  align-self: stretch;
+  height: 48px;
+  justify-content: space-between;
+  padding: 12px 8px 12px 12px;
+  width: 100%;
+}
+
+.input-field .state-error {
+  background-color: #ffffff;
+  border-color: #d93449;
+}
+
+.input-field.area-text .label-wrapper {
+  align-items: center;
+}
+
+.input-field.text-box .label-wrapper {
+  align-items: center;
+}
+
+.input-field.dropdown .label-wrapper {
+  align-items: flex-start;
+}
+
+.input-field.phone-number .label-wrapper {
+  align-items: flex-start;
+}
+
+.input-field .div-4.state-hovered .enter-value {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+  letter-spacing: -0.32px;
+}
+
+.input-field .div-4.state-disabled .enter-value {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+  letter-spacing: -0.32px;
+}
+
+.input-field .div-4.input-type-1-phone-number .enter-value {
+  width: fit-content;
+}
+
+.input-field .div-4.input-type-1-dropdown .enter-value {
+  width: 80px;
+}
+
+.input-field .div-4.state-filled .enter-value {
+  color: var(--AI-primitives-global-colours-AI-grey-g700);
+  letter-spacing: 0;
+}
+
+.input-field .div-4.input-type-1-area-text .enter-value {
+  width: fit-content;
+}
+
+.input-field .div-4.state-focused-active .enter-value {
+  color: var(--AI-primitives-global-colours-AI-grey-g700);
+  letter-spacing: 0;
+}
+
+.input-field .div-4.state-empty .enter-value {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+  letter-spacing: -0.32px;
+}
+
+.input-field .div-4.input-type-1-text-box .enter-value {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input-field .div-4.state-error .enter-value {
+  color: var(--primary-solidsblack);
+  letter-spacing: -0.32px;
+}
+
+.input-field .div-4.state-hovered .text-wrapper-2 {
+  color: var(--AI-primitives-global-colours-AI-grey-g500);
+}
+
+.input-field .div-4.state-disabled .text-wrapper-2 {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+  opacity: 0.4;
+}
+
+.input-field .div-4.state-filled .text-wrapper-2 {
+  color: var(--AI-primitives-global-colours-AI-grey-g500);
+}
+
+.input-field .div-4.state-focused-active .text-wrapper-2 {
+  color: var(--AI-primitives-global-colours-AI-grey-g500);
+}
+
+.input-field .div-4.state-empty .text-wrapper-2 {
+  color: var(--AI-primitives-global-colours-AI-grey-g500);
+}
+
+.input-field .div-4.state-error .text-wrapper-2 {
+  color: var(--AI-primitives-global-colours-AI-grey-g500);
+}
+
+.input-field .div-4.state-hovered .text-wrapper-3 {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+  letter-spacing: 0.32px;
+}
+
+.input-field .div-4.state-disabled .text-wrapper-3 {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+  letter-spacing: 0.32px;
+}
+
+.input-field .div-4.state-filled .text-wrapper-3 {
+  color: var(--AI-primitives-global-colours-AI-grey-g700);
+  letter-spacing: 0;
+}
+
+.input-field .div-4.state-focused-active .text-wrapper-3 {
+  color: var(--AI-primitives-global-colours-AI-grey-g700);
+  letter-spacing: 0;
+}
+
+.input-field .div-4.state-empty .text-wrapper-3 {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+  letter-spacing: 0.32px;
+}
+
+.input-field .div-4.state-error .text-wrapper-3 {
+  color: var(--AI-primitives-global-colours-AI-grey-g700);
+  letter-spacing: 0.32px;
+}
+
+.input-field .div-4.state-hovered .lorem-ipsum-is {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+}
+
+.input-field .div-4.state-disabled .lorem-ipsum-is {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+}
+
+.input-field .div-4.state-filled .lorem-ipsum-is {
+  color: var(--AI-primitives-global-colours-AI-grey-g700);
+}
+
+.input-field .div-4.state-focused-active .lorem-ipsum-is {
+  color: var(--AI-primitives-global-colours-AI-grey-g700);
+}
+
+.input-field .div-4.state-empty .lorem-ipsum-is {
+  color: var(--AI-primitives-global-colours-AI-grey-g400);
+}
+
+.input-field .div-4.state-error .lorem-ipsum-is {
+  color: var(--primary-solidsblack);
+}

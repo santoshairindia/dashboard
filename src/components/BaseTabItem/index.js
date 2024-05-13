@@ -1,0 +1,1 @@
+export { BaseTabItem } from "./BaseTabItem";

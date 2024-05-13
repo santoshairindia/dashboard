@@ -1,0 +1,59 @@
+.button-tab-group {
+  background-color: var(--AI-primitives-global-colours-AI-grey-g50);
+  border-radius: 4px;
+  display: inline-flex;
+  padding: 4px;
+  position: relative;
+}
+
+.button-tab-group .tabs {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.button-tab-group .base-tab-item-instance {
+  align-self: unset !important;
+}
+
+.button-tab-group .instance-node {
+  flex: 0 0 auto !important;
+}
+
+.button-tab-group .instance-node-2 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.button-tab-group .base-extras-2 {
+  height: 40px;
+  position: relative;
+  width: 8px;
+}
+
+.button-tab-group .base-extras-instance {
+  position: relative !important;
+}
+
+.button-tab-group .base-extras-3 {
+  height: 32px;
+  position: relative;
+  width: 8px;
+}
+
+.button-tab-group .base-extras-4 {
+  height: 32px !important;
+  position: relative !important;
+}
+
+.button-tab-group.size-4-medium {
+  align-items: flex-start;
+  max-height: 48px;
+  min-height: 48px;
+}
+
+.button-tab-group.size-4-small {
+  align-items: center;
+}

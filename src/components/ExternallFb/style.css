@@ -1,0 +1,106 @@
+.externall-fb {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  position: relative;
+}
+
+.externall-fb .image {
+  height: 28px;
+  object-fit: cover;
+  position: relative;
+  width: 28px;
+}
+
+.externall-fb .frame-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.externall-fb .element-m-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.externall-fb .element-3 {
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.externall-fb .frame-8 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.externall-fb .polygon-3 {
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  width: 10px;
+}
+
+.externall-fb .element-4 {
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.externall-fb .text-wrapper-5 {
+  color: var(--AI-primitives-global-colours-AI-grey-g900);
+  font-family: "Lato", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.externall-fb .property-1-5-dip {
+  color: var(--AI-primitives-global-colours-AI-red-r500-brand);
+}
+
+.externall-fb .property-1-5-rise {
+  color: var(--AI-primitives-global-colours-AI-green-g600);
+}
+
+.externall-fb .property-1-6-dip {
+  left: 2px;
+}
+
+.externall-fb .property-1-6-rise {
+  left: 1px;
+}
+
+.externall-fb .property-1-7-dip {
+  color: var(--AI-primitives-global-colours-AI-red-r500-brand);
+}
+
+.externall-fb .property-1-7-rise {
+  color: var(--AI-primitives-global-colours-AI-green-g600);
+}

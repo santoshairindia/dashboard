@@ -1,0 +1,106 @@
+.rates-component {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 119px;
+}
+
+.rates-component .frame-5 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 119px;
+}
+
+.rates-component .element-m {
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 900;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 119px;
+}
+
+.rates-component .display-click-rate {
+  color: var(--AI-primitives-global-colours-AI-blue-b900);
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+  width: 119px;
+}
+
+.rates-component .frame-6 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+  width: 119px;
+}
+
+.rates-component .polygon-2 {
+  height: 9.75px;
+  position: relative;
+  width: 10.39px;
+}
+
+.rates-component .arrow {
+  flex: 0 0 auto !important;
+  position: relative !important;
+}
+
+.rates-component .element-2 {
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.rates-component .text-wrapper-4 {
+  color: var(--AI-primitives-global-colours-AI-grey-g900);
+  font-family: "Lato", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: relative;
+  text-align: center;
+  width: 119px;
+}
+
+.rates-component .property-1-0-dip {
+  color: var(--AI-primitives-global-colours-AI-red-r500-brand-duplicate);
+}
+
+.rates-component .property-1-0-rise {
+  color: var(--AI-primitives-global-colours-AI-green-g600-duplicate);
+}
+
+.rates-component .property-1-1-dip {
+  color: var(--AI-primitives-global-colours-AI-red-r500-brand-duplicate);
+}
+
+.rates-component .property-1-1-rise {
+  color: var(--AI-primitives-global-colours-AI-green-g600-duplicate);
+}

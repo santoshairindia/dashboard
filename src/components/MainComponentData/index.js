@@ -1,0 +1,1 @@
+export { MainComponentData } from "./MainComponentData";

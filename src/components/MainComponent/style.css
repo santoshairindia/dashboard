@@ -1,0 +1,134 @@
+.main-component {
+  height: 200px;
+  width: 200px;
+}
+
+.main-component .overlap-4 {
+  height: 200px;
+  position: relative;
+}
+
+.main-component .group-4 {
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.main-component .ellipse-4 {
+  height: 208px;
+  left: -4px;
+  position: absolute;
+  top: 0;
+  width: 208px;
+}
+
+.main-component .overlap-group-5 {
+  left: -20px;
+  position: relative;
+  width: 240px;
+}
+
+.main-component .ellipse-5 {
+  height: 208px;
+  left: 16px;
+  position: absolute;
+  width: 208px;
+}
+
+.main-component .ellipse-6 {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+.main-component .group-5 {
+  height: 36px;
+  left: 164px;
+  position: absolute;
+  top: 27px;
+  width: 36px;
+}
+
+.main-component .overlap-5 {
+  height: 36px;
+  position: relative;
+}
+
+.main-component .ellipse-7 {
+  background-color: var(--AI-primitives-global-colours-base-white);
+  border-radius: 15px;
+  height: 30px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 30px;
+}
+
+.main-component .main-component-data-instance {
+  left: 53px !important;
+  position: absolute !important;
+  top: 30px !important;
+}
+
+.main-component .info-filled {
+  height: 36px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 36px !important;
+}
+
+.main-component .state-1-dip {
+  height: 724px;
+  top: -20px;
+}
+
+.main-component .state-1-rise-highlight {
+  height: 724px;
+  top: -20px;
+}
+
+.main-component .state-1-dip-highlight {
+  height: 890px;
+  top: -230px;
+}
+
+.main-component .state-1-rise {
+  height: 724px;
+  top: -20px;
+}
+
+.main-component .overlap-group-5.state-1-dip .ellipse-5 {
+  top: 20px;
+}
+
+.main-component .overlap-group-5.state-1-rise-highlight .ellipse-5 {
+  top: 20px;
+}
+
+.main-component .overlap-group-5.state-1-dip-highlight .ellipse-5 {
+  top: 230px;
+}
+
+.main-component .overlap-group-5.state-1-rise .ellipse-5 {
+  top: 20px;
+}
+
+.main-component .overlap-group-5.state-1-dip .ellipse-6 {
+  height: 724px;
+}
+
+.main-component .overlap-group-5.state-1-rise-highlight .ellipse-6 {
+  height: 724px;
+}
+
+.main-component .overlap-group-5.state-1-dip-highlight .ellipse-6 {
+  height: 890px;
+}
+
+.main-component .overlap-group-5.state-1-rise .ellipse-6 {
+  height: 724px;
+}

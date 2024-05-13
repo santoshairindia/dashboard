@@ -1,0 +1,1 @@
+export { RatesComponent } from "./RatesComponent";

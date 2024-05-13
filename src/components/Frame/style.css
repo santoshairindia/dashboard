@@ -1,0 +1,134 @@
+.frame {
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 8px;
+  position: relative;
+}
+
+.frame .div {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  height: 48px;
+  position: relative;
+}
+
+.frame .page-view {
+  color: var(--AI-primitives-global-colours-AI-gold-dark);
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .div-2 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 9px;
+  margin-bottom: -5px;
+  position: relative;
+}
+
+.frame .frame-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.frame .element-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.frame .element {
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .div-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 7px;
+  height: 17px;
+  position: relative;
+}
+
+.frame .polygon {
+  height: 12px;
+  position: relative;
+  width: 13.86px;
+}
+
+.frame .group {
+  height: 15px;
+  position: relative;
+  width: 25px;
+}
+
+.frame .div-wrapper {
+  align-items: center;
+  display: inline-flex;
+  gap: 74px;
+  justify-content: center;
+  position: relative;
+}
+
+.frame .text-wrapper {
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .graph {
+  flex: 0 0 auto !important;
+  height: 25.5px !important;
+  margin-bottom: -0.5px !important;
+  position: relative !important;
+}
+
+.frame .dip {
+  color: var(--AI-primitives-global-colours-AI-red-r500-brand);
+}
+
+.frame .rise {
+  color: var(--AI-primitives-global-colours-AI-green-g600);
+}
+
+.frame .property-1-dip {
+  color: var(--AI-primitives-global-colours-AI-red-r500-brand);
+}
+
+.frame .property-1-rise {
+  color: var(--AI-primitives-global-colours-AI-green-g600);
+}
